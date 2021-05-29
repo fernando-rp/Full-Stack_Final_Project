@@ -2,10 +2,12 @@ import React from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
 import "../../styles/home.scss";
 import { Jumbotron } from "../component/jumbotron";
+import { CardsLanding } from "../component/cards-landing";
 
 export const Home = () => (
 	<>
 		<Jumbotron />
+		<CardsLanding />
 		<div className="text-center mt-5">
 			<h1>Hello Rigo!</h1>
 			<p>
