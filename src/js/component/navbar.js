@@ -14,7 +14,7 @@ export const Navbar = () => {
 					data-toggle="dropdown"
 					aria-haspopup="true"
 					aria-expanded="false">
-					Compañia
+					Servify
 				</a>
 				<div className="dropdown-menu" aria-labelledby="navbarDropdown">
 					<Link to="/">
@@ -23,19 +23,28 @@ export const Navbar = () => {
 							onClick={() => {
 								window.scrollTo(0, 700);
 							}}>
-							Quienes somos1
+							Quienes Somos.
 						</button>
 					</Link>
-					<a className="dropdown-item" href="#/">
-						Quienes somos
-					</a>
-					<a className="dropdown-item" href="#/">
-						Como funciona
-					</a>
-					<a className="dropdown-item" href="#/">
-						Contactanos
-					</a>
-					<div className="dropdown-divider" />
+					<Link to="/">
+						<button
+							className="btn"
+							onClick={() => {
+								window.scrollTo(0, 900);
+							}}>
+							Como Funciona.
+						</button>
+					</Link>
+					<Link to="/">
+						<button
+							className="btn"
+							onClick={() => {
+								window.scrollTo(0, 1500);
+							}}>
+							Contactanos.
+						</button>
+					</Link>
+
 					<Link className="dropdown-item" to="/faq">
 						FAQ / Ayuda
 					</Link>

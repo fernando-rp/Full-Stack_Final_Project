@@ -9,18 +9,40 @@ export const Faq = () => (
 			</div>
 			<div className="row mt-4">
 				<div className="col col-12">
-					<h2 className="questions ">Preguntas Frecuentes1.</h2>
+					<h2 className="questions ">¿Como registrarse en la aplicación?</h2>
 				</div>
 				<div className="col col-12">
-					<p className="answers"> 1</p>
-				</div>
-			</div>
-			<div className="row">
-				<div className="col col-12">
-					<h2 className="questions ">Preguntas Frecuentes2.</h2>
+					<p className="answers">
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+						the industry´s standard dummy text ever since the 1500s.{" "}
+					</p>
 				</div>
 				<div className="col col-12">
-					<p className="answers"> 2</p>
+					<h2 className="questions ">¿Como solicitar un servicio.?</h2>
+				</div>
+				<div className="col col-12">
+					<p className="answers">
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+						the industry´s standard dummy text ever since the 1500s.{" "}
+					</p>
+				</div>
+				<div className="col col-12">
+					<h2 className="questions ">¿Como evaluar el servicio contratado?</h2>
+				</div>
+				<div className="col col-12">
+					<p className="answers">
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+						the industry´s standard dummy text ever since the 1500s.{" "}
+					</p>
+				</div>
+				<div className="col col-12">
+					<h2 className="questions ">¿En que ciudad estan disponible los servicios?</h2>
+				</div>
+				<div className="col col-12">
+					<p className="answers">
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+						the industry´s standard dummy text ever since the 1500s.{" "}
+					</p>
 				</div>
 			</div>
 		</div>
