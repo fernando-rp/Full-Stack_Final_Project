@@ -16,13 +16,6 @@ export const Compañia = () => {
 					Agenda. 4-. Califica al colaborador.
 				</p>
 				<h1 className="display-4">Contactanos</h1>
-				<h1 className="display-4">FAQ</h1>
-				<p className="lead">
-					1. <br /> 2. <br />
-					3. <br />
-					4. <br />
-					5. <br />
-				</p>
 			</div>
 		</div>
 	);
